@@ -1,0 +1,232 @@
+body {
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Fresca', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+main .section_card .section_card_right_container .section_link, .header-wrap a {
+  color: #fff; }
+
+main {
+  margin: 0 auto;
+  width: 1400px; }
+  main .section_text {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    color: #2F333F;
+    margin-bottom: 20px; }
+  main .section_text::after {
+    content: "adventure";
+    background-color: #14a0c7;
+    width: 300px;
+    height: 100px;
+    right: 203px;
+    position: relative; }
+  main .section_card {
+    background-color: #1b1e2a;
+    display: flex;
+    height: 290px;
+    border: 20px solid #1b1e2a;
+    border-radius: 10px;
+    width: 1116px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    main .section_card .section_card_img {
+      height: 290px;
+      width: 430px;
+      border-radius: 10px; }
+    main .section_card .section_card_right_container .section_card_heading {
+      text-align: center;
+      font-size: 24px;
+      color: #fff;
+      font-family: 'Hind', sans-serif;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 30px; }
+    main .section_card .section_card_right_container .section_card_text {
+      font-family: 'Hind', sans-serif;
+      padding-right: 80px;
+      padding-left: 100px;
+      padding-top: 5px;
+      font-size: 16px;
+      height: 120px;
+      color: #c0c3ce;
+      line-height: 24px;
+      margin-bottom: 0;
+      font-family: "Hind", sans-serif; }
+    main .section_card .section_card_right_container .section_link {
+      padding-left: 270px;
+      font-family: 'Hind', sans-serif;
+      color: #c0c3ce; }
+
+header {
+  margin: 0 auto;
+  width: 1920px;
+  height: 712px;
+  background-image: url(../img/m-h-day.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* z-index: 0; */
+  background-position: center;
+  /* border-radius: 0 0 500px 0; */
+  border-bottom-right-radius: 800px 290px;
+  margin: 0;
+  padding: 0; }
+
+.header-wrap {
+  width: 1550px;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: #2F333F; }
+  .header-wrap .landing-logo p {
+    font-family: 'Hind', sans-serif;
+    display: inline-block;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: "Hind", sans-serif; }
+    .header-wrap .landing-logo p span {
+      display: block;
+      font-size: 10px;
+      padding-left: 10px;
+      font-family: "Hind", sans-serif; }
+  .header-wrap .header_heading {
+    width: 600px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 72px; }
+  .header-wrap .header_heading::after {
+    content: "awesome";
+    background-color: #14a0c7;
+    width: 300px;
+    height: 100px;
+    top: 207px;
+    left: 185px;
+    position: absolute; }
+  .header-wrap .header_text {
+    font-family: 'Hind', sans-serif;
+    width: 540px;
+    font-size: 16px;
+    margin-top: 0;
+    font-family: "Hind", sans-serif; }
+  .header-wrap .header_button {
+    height: 50px;
+    width: 140px;
+    background-color: #699900;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 20px; }
+  .header-wrap a {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    margin-left: 150px; }
+
+.section_banner {
+  width: 1200px;
+  height: 150px;
+  border-radius: 10px;
+  background: linear-gradient(0.25turn, #65950e, #2e5cd6);
+  margin-top: 100px;
+  display: flex;
+  position: absolute;
+  margin-left: 100px; }
+  .section_banner .section_banner_text_wrap {
+    width: 700px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .section_banner .section_banner_text_wrap .section_banner_heading {
+      font-size: 30px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+      margin: 0 auto;
+      padding-left: 150px;
+      padding-top: 10px;
+      color: #2F333F; }
+    .section_banner .section_banner_text_wrap .section_banner_heading::after {
+      content: "adventure";
+      background-color: #14a0c7;
+      width: 300px;
+      height: 100px;
+      bottom: 38px;
+      left: 257px;
+      position: relative; }
+    .section_banner .section_banner_text_wrap .section_banner_text {
+      font-family: 'Hind', sans-serif;
+      padding-left: 150px;
+      color: #c0c3ce;
+      position: relative;
+      bottom: 50px;
+      font-family: "Hind", sans-serif; }
+  .section_banner .section_banner_button {
+    height: 50px;
+    width: 140px;
+    background-color: #699900;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 180px; }
+
+footer {
+  background-color: #1b1e2a;
+  position: static;
+  width: 1920px;
+  height: 400px;
+  margin-top: 200px; }
+  footer .footer-wrap {
+    display: flex; }
+    footer .footer-wrap .footer_logo {
+      height: 100px;
+      width: 200px;
+      margin-left: 200px;
+      margin-top: 150px;
+      font-family: "Hind", sans-serif; }
+      footer .footer-wrap .footer_logo p {
+        font-family: 'Hind', sans-serif;
+        color: #c0c3ce;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-size: 23px;
+        font-weight: bold;
+        margin-left: 10px;
+        font-family: "Hind", sans-serif; }
+        footer .footer-wrap .footer_logo p span {
+          display: block;
+          font-size: 10px;
+          text-align: center;
+          font-family: "Hind", sans-serif; }
+    footer .footer-wrap .footer_text {
+      height: 100px;
+      width: 320px;
+      margin-left: 370px;
+      margin-top: 150px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #c0c3ce;
+      font-size: 15px;
+      font-family: "Hind", sans-serif; }
+    footer .footer-wrap .footer-cr {
+      height: 100px;
+      width: 300px;
+      margin-top: 175px;
+      font-family: 'Hind', sans-serif;
+      color: #c0c3ce;
+      font-size: 16px;
+      margin-left: 450px;
+      font-family: "Hind", sans-serif; }
